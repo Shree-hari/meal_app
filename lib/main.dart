@@ -33,7 +33,8 @@ class MyApp extends StatelessWidget {
       routes: {
         '/' : (ctx) => CategoriesScreen(),
         CategoryMealsScreen.routeName : (ctx)=>CategoryMealsScreen(),
-        MealDetailScreen.routeName : (ctx)=>MealDetailScreen()
+        MealDetailScreen.routeName : (ctx)=>MealDetailScreen(),
+
       },
       //Below used method is a fallback page of the app
       onUnknownRoute: (settings){
